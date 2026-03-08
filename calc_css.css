@@ -4,6 +4,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 #calc_buttons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -32,6 +33,7 @@ button {
     background-color: rgb(241, 125, 144);
     font-size: 30px;
     font-weight: bold;
+    color: black;
 }
 
 button:hover {
@@ -64,3 +66,4 @@ button:hover {
 .clear {
     background-color: rgb(255, 0, 111);
 }
+
